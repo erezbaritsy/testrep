@@ -1,11 +1,11 @@
-let a = 1;
-let b = 4;
-let c = -5;
+let a = parseInt(prompt('enter number: '));
+let b = parseInt(prompt('enter number: '));
+let c = parseInt(prompt('enter number: '));
 let x1 = 0;
 let x2 = 0;
 
 
  x1 = ((-1)*b + (Math.sqrt((b*b)-(4*(a*c)))))/(2*a);
  x2 = ((-1)*b - (Math.sqrt((b*b)-(4*(a*c)))))/(2*a);
-console.log(x1);
-console.log(x2);
+alert('x1= '+x1);
+alert('x2= '+x2);
